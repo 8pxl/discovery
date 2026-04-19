@@ -1,12 +1,14 @@
 import RPi.GPIO as GPIO
 import time
 
-IN1 = 23
-IN2 = 24
-IN3 = 27
-IN4 = 22
-ENA = 18
-ENB = 19
+
+ENA = 17
+IN1 = 27
+IN2 = 22
+
+ENB = 23
+IN3 = 24
+IN4 = 25
 
 GPIO.setmode(GPIO.BCM)
 
